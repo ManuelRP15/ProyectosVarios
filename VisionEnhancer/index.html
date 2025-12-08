@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VisionEnhancer</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>VisionEnhancer</h1>
+        <p>
+          Sube una imagen y mejora su visibilidad para facilitar la
+          identificación de elementos importantes.
+        </p>
+      </header>
+
+      <section class="upload-section">
+        <input
+          type="file"
+          id="upload"
+          accept="image/*"
+          aria-label="Subir imagen"
+        />
+        <button
+          id="enhanceButton"
+          aria-label="Aplicar mejoras de imagen"
+          aria-live="polite"
+        >
+          Mejorar Imagen
+        </button>
+      </section>
+
+      <section id="images-container" class="images-container">
+        <div id="original-container" class="image-container">
+          <p>Imagen Original</p>
+          <img
+            id="originalImage"
+            src=""
+            alt="Imagen Original"
+            class="image-preview"
+            aria-describedby="original-desc"
+          />
+        </div>
+        <div id="enhanced-container" class="image-container">
+          <p>Imagen Mejorada</p>
+          <img
+            id="enhancedImage"
+            src=""
+            alt="Imagen Mejorada"
+            class="image-preview"
+            aria-describedby="enhanced-desc"
+          />
+        </div>
+      </section>
+
+      <div class="download-section">
+        <button
+          id="download"
+          style="display: none"
+          aria-label="Descargar imagen mejorada"
+        >
+          Descargar Imagen
+        </button>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
