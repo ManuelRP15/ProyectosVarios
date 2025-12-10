@@ -98,7 +98,9 @@ El proyecto ha sido desplegado en un servidor gratuito:
 - 📁 Cliente FTP: [FileZilla](https://filezilla-project.org/) para subir los archivos
 - ✅ Permite ver y probar el proyecto sin necesidad de configuración local
 
-📐 Diagramas del Sistema
+---
+
+## 📐 Diagramas del Sistema
 
 A continuación se muestran los diagramas más importantes del proyecto, para entender la estructura de datos, la lógica de clases y los casos de uso de los usuarios.
 
