@@ -1,0 +1,147 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0" version="29.2.3">
+  <diagram name="Design" id="WCGHhMWIkjE_CDXVzo7x">
+    <mxGraphModel dx="570" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-1" edge="1" parent="1" source="NRMf9g9lrWOpu_PU4NES-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="NRMf9g9lrWOpu_PU4NES-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-47" connectable="0" parent="NRMf9g9lrWOpu_PU4NES-1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=21;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=none;gradientColor=none;" value="N : 1" vertex="1">
+          <mxGeometry relative="1" x="-0.0305" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-2" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Usuario" vertex="1">
+          <mxGeometry height="280" width="160" x="440" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-3" parent="NRMf9g9lrWOpu_PU4NES-2" style="text;strokeColor=#001DBC;fillColor=#0050ef;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;b&gt;+ id: int (PK)&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ nombre:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ email:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ perfil_id: int&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ password:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ activo: boolean&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ token:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="114" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-4" parent="NRMf9g9lrWOpu_PU4NES-2" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-5" parent="NRMf9g9lrWOpu_PU4NES-2" style="text;strokeColor=none;fillColor=light-dark(#A20025,#FFC5C5);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontColor=#ffffff;strokeWidth=7;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ crearOferta()&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ solicitarOferta()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ desapuntarse()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ registrarse()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ login()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ logout()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ restablecerContraseña()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ recordarContraseña()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="132" width="160" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-6" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Categoría" vertex="1">
+          <mxGeometry height="140" width="160" x="1186" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-7" parent="NRMf9g9lrWOpu_PU4NES-6" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#6DB2FF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;b&gt;+ id: int (PK)&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ categoria:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-8" parent="NRMf9g9lrWOpu_PU4NES-6" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-9" parent="NRMf9g9lrWOpu_PU4NES-6" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#FFC5C5);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ crearCategoria()&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ modificarCategoria()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ eliminarCategoria()&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="62" width="160" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-10" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Perfil" vertex="1">
+          <mxGeometry height="140" width="160" x="440" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-11" parent="NRMf9g9lrWOpu_PU4NES-10" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#6DB2FF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;b&gt;+ id: int (PK)&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ perfil:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-12" parent="NRMf9g9lrWOpu_PU4NES-10" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-13" parent="NRMf9g9lrWOpu_PU4NES-10" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#FFC5C5);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;rounded=0;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ asignarPerfil()&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ modificarPerfil()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ eliminarPerfil()&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="62" width="160" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-14" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Gestor" vertex="1">
+          <mxGeometry height="220" width="160" x="855" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-15" parent="NRMf9g9lrWOpu_PU4NES-14" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#6DB2FF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;b&gt;+ id: int (PK)&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;u&gt;+ perfil_id: int (FK)&lt;br&gt;&lt;/u&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ nombre:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ email:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ password:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="84" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-16" parent="NRMf9g9lrWOpu_PU4NES-14" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-17" parent="NRMf9g9lrWOpu_PU4NES-14" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#FFC5C5);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ crearUsuario()&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ modificarUsuario()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ borrarUsuario()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ crearGestor()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ modificarGestor()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ visarOferta()&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="102" width="160" y="118" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-18" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Oferta" vertex="1">
+          <mxGeometry height="230" width="160" x="855" y="1165" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-19" parent="NRMf9g9lrWOpu_PU4NES-18" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#6DB2FF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;b&gt;+ id: int (PK)&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;u&gt;+ usuario_id: int (FK)&lt;/u&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;u&gt;+ categoria_id: int (FK)&lt;br&gt;&lt;/u&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ nombre:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ descripcion:&amp;nbsp;&lt;span style=&quot;background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ fecha_actividad:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;string&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ aforo: int&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ visada: boolean&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="124" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-20" parent="NRMf9g9lrWOpu_PU4NES-18" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-21" parent="NRMf9g9lrWOpu_PU4NES-18" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#FFC5C5);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ recibirSolicitud()&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ borrarOferta()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ modificarOferta()&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ visarOferta()&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="72" width="160" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-40" edge="1" parent="1" source="NRMf9g9lrWOpu_PU4NES-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="929.9999999999998" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-45" connectable="0" parent="NRMf9g9lrWOpu_PU4NES-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=21;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=none;gradientColor=none;" value="1:N" vertex="1">
+          <mxGeometry relative="1" x="0.3697" y="-2" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-22" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Solicitud" vertex="1">
+          <mxGeometry height="140" width="180" x="630" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-23" parent="NRMf9g9lrWOpu_PU4NES-22" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#6DB2FF);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;b&gt;&lt;u&gt;+ oferta_id: int (PK) &amp;amp; (FK)&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;&lt;b&gt;&lt;u&gt;+ usuario_id: int (PK) &amp;amp; (FK)&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ fecha_solicitud: date&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="180" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-24" parent="NRMf9g9lrWOpu_PU4NES-22" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="180" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-25" parent="NRMf9g9lrWOpu_PU4NES-22" style="text;strokeColor=none;fillColor=light-dark(#FFFFFF,#FFC5C5);align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ registrarSolicitud()&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;+ eliminarSolicitud()&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="52" width="180" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-34" edge="1" parent="1" source="NRMf9g9lrWOpu_PU4NES-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NRMf9g9lrWOpu_PU4NES-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-46" connectable="0" parent="NRMf9g9lrWOpu_PU4NES-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=0;fontSize=21;" value="N : 1" vertex="1">
+          <mxGeometry relative="1" x="-0.0482" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-38" edge="1" parent="1" source="NRMf9g9lrWOpu_PU4NES-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.016;entryY=-0.049;entryDx=0;entryDy=0;entryPerimeter=0;" target="NRMf9g9lrWOpu_PU4NES-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-48" connectable="0" parent="NRMf9g9lrWOpu_PU4NES-38" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=21;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=none;gradientColor=none;" value="N : N" vertex="1">
+          <mxGeometry relative="1" x="-0.446" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-41" edge="1" parent="1" source="NRMf9g9lrWOpu_PU4NES-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.785;entryDx=0;entryDy=0;entryPerimeter=0;" target="NRMf9g9lrWOpu_PU4NES-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-44" connectable="0" parent="NRMf9g9lrWOpu_PU4NES-41" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=21;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=none;gradientColor=none;" value="N : 1" vertex="1">
+          <mxGeometry relative="1" x="-0.0516" y="-2" as="geometry">
+            <mxPoint x="33" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-42" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NRMf9g9lrWOpu_PU4NES-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="1280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-52" connectable="0" parent="NRMf9g9lrWOpu_PU4NES-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=21;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=none;gradientColor=none;" value="1 : N" vertex="1">
+          <mxGeometry relative="1" x="-0.001" y="3" as="geometry">
+            <mxPoint x="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-43" edge="1" parent="1" source="NRMf9g9lrWOpu_PU4NES-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NRMf9g9lrWOpu_PU4NES-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="935" y="1090" />
+              <mxPoint x="935" y="1090" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NRMf9g9lrWOpu_PU4NES-50" connectable="0" parent="NRMf9g9lrWOpu_PU4NES-43" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Helvetica;fontSize=21;fontColor=default;fontStyle=0;labelBackgroundColor=default;fillColor=none;gradientColor=none;" value="1 : N" vertex="1">
+          <mxGeometry relative="1" x="-0.1388" y="3" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
