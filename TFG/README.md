@@ -97,3 +97,20 @@ El proyecto ha sido desplegado en un servidor gratuito:
 - 🆓 Hosting: [InfinityFree](https://www.infinityfree.net/)
 - 📁 Cliente FTP: [FileZilla](https://filezilla-project.org/) para subir los archivos
 - ✅ Permite ver y probar el proyecto sin necesidad de configuración local
+
+📐 Diagramas del Sistema
+
+A continuación se muestran los diagramas más importantes del proyecto, para entender la estructura de datos, la lógica de clases y los casos de uso de los usuarios.
+
+**Modelo Entidad-Relación (ER):**
+
+![Modelo Entidad-Relación](Documentación/ModeloER_TFG_DrawIO_ManuelRoldan.png)
+
+**Diagrama de Clases UML:**
+
+![Diagrama de Clases UML](Documentación/UML_TFG_PNG_ManuelRoldan.png)
+
+**Diagrama de Casos de Uso:**
+
+![Diagrama de Casos de Uso](Documentación/CasosDeUso_TFG_PNG_ManuelRoldan.png)
+
